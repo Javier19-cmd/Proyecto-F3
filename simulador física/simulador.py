@@ -1,5 +1,5 @@
 """
-# AUTORES: ROBERTO FRANCISCO RIOS MORALES,  20979
+# AUTORES: ROBERTO FRANCISCO RIOS MORALES , 20979
 #          JAVIER SEBASTIÁN VALLE BALSELLS, 20159
 #          MARIO DE LEÓN MURALLES         , 19019         
 # LABORATORIO DE FISICA 3, SECCION 20
@@ -90,7 +90,7 @@ def simulador():
     plt.show()
     ondas(t) #Ondas ya generadas.
     #plt.show()
-    nuevo(t) #Mandando datos del voltaje a la clase de 3D.
+    #nuevo(t) #Mandando datos del voltaje a la clase de 3D.
 
     plano_xz(vep) ##Segundo plano 
 simulador()
