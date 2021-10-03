@@ -21,7 +21,7 @@ from nuevo import nuevo   #Mix de 2D a 3D
 # DEFINE A FUNCTION TO MAKE THE GRAPH
 def simulador():
 
-    print("\nSIMULADOR DE MOVIMIENTO DE PARTICULAS A TRAVES DE UN CAMPO ELECTRICO\n")
+    print("\nSIMULADOR DE MOVIMIENTO DE PARTICULAS A TRAVÉS DE UN CAMPO ELECTRICO\n")
     
     # Input por parte del usuario.
     q = 30
@@ -90,7 +90,7 @@ def simulador():
     plt.show()
     ondas(t) #Ondas ya generadas.
     #plt.show()
-    nuevo(vep) #Mandando datos del voltaje a la clase de 3D.
+    nuevo(t) #Mandando datos del voltaje a la clase de 3D.
 
     plano_xz(vep) ##Segundo plano 
 simulador()

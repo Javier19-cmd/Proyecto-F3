@@ -86,6 +86,6 @@ def plano_xz(vep):
 
     plt.show()
     ondas(t) #Ondas ya generadas.
-    nuevo(vep) #Mandando datos del voltaje a la clase de 3D.
+    nuevo(t) #Mandando datos del voltaje a la clase de 3D.
 
 #plano_xz()

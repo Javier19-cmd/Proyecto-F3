@@ -21,10 +21,16 @@ def nuevo(x):
     ax = plt.figure().add_subplot(projection='3d')
 
     # Plot a sin curve using the x and y axes.
-    #a = x
-    a = np.linspace(0, 1, 100)
-    x = a*x #Obteniedo los valores de x en el rango aceptado en la gráfica.
-    y = np.sin(x * 2 * np.pi) / 2 + 0.5
+    #a = x No descomentar.
+    #x=np.arange(0.0,x*np.pi,0.01)
+    
+    a = np.linspace(0, 1, 100) #Original.
+    x = a*x #Obteniedo los valores de x en el rango aceptado en la gráfica. #Original.
+   
+    #y = np.sin(x) #Nuevo
+    
+    y = np.sin(x * 2 * np.pi)/2 + 0.5
+    
     ax.plot(x, y, zs=0, zdir='z', label='curve in (x, y)')
 
     # Plot scatterplot data (20 2D points per colour) on the x and z axes.
