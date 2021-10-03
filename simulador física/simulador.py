@@ -11,7 +11,7 @@
 Interfaz para controlar las variables.
 """
 
-# IMPORT LIBS
+# Librerías a usar.
 import matplotlib.pyplot as plt
 import matplotlib.animation as ani
 from sim2 import plano_xz #Segunda vista del simulador.
@@ -23,7 +23,7 @@ def simulador():
 
     print("\nSIMULADOR DE MOVIMIENTO DE PARTICULAS A TRAVES DE UN CAMPO ELECTRICO\n")
     
-    # INPUT
+    # Input por parte del usuario.
     q = 30
     q = q*-1.602*10**(-19) # C
 

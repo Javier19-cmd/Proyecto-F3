@@ -7,7 +7,7 @@
 # NOTA: PARA QUE EL PROGRAMA FUNCIONE SE NECESITA TENER MATPLOTLIB INSTALADO
 """
 
-# IMPORT LIBS
+# Librerías a usar.
 import matplotlib.pyplot as plt
 import matplotlib.animation as ani
 from onda import ondas
@@ -87,5 +87,5 @@ def plano_xz(vep):
     plt.show()
     ondas(t) #Ondas ya generadas.
     nuevo(vep) #Mandando datos del voltaje a la clase de 3D.
-    
+
 #plano_xz()
